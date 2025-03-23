@@ -32,9 +32,9 @@ const Login = () => {
 
     }
 
-    const handleRegister = () => {
+    // const handleRegister = () => {
 
-    }
+    // }
 
     return (
         <div className="Login">
