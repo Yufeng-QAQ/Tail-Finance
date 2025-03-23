@@ -1,0 +1,73 @@
+.loans-content {
+    margin-top: -42px;
+    margin-bottom: -128px;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-bar .percent {
+    position: relative;
+}
+
+.progress-bar svg {
+    position: relative;
+    width: 210px;
+    height: 210px;
+    transform: rotate(-90deg);
+}
+
+.progress-bar svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: rgb(128, 128, 128, 0.2);;
+    stroke-width: 20;
+    stroke-linecap: round;
+}
+
+.progress-bar svg circle:last-of-type {
+    stroke-dasharray: 600px;
+    stroke-dashoffset: calc(625px - (600px * var(--percent)) / 168);
+    stroke: var(--clr-pumpkin);
+}
+
+.progress-bar .percent-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.progress-bar .percent-number h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.loans-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.loans-content .progress-bar {
+    margin-left: -46px;
+}
+
+.loans-content .loan-data-list {
+    margin-left: -20px;
+}
+
+.loans-content .data-item {
+    margin-bottom: 20px;
+}
+
+.loans-content .data-item-value {
+    margin-top: 8px;
+    display: block;
+    font-weight: 600;
+}

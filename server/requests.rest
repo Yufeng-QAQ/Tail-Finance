@@ -1,0 +1,37 @@
+GET http://localhost:3001/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVGFpbCIsImlhdCI6MTcyMzg1NTMwN30.TWKQ2n-kqnKvpwt3ZR-pm3cN7nNcWEx4op58NCwKZZY
+
+###
+POST http://localhost:3001/users/login
+Content-Type: application/json
+
+{"username": "Tail", "password": "password"}
+
+###
+POST http://localhost:3001/users/register
+Content-Type: application/json
+
+{
+    "username": "Demo",
+    "password": "123456"
+}
+
+###
+POST http://localhost:3001/reminders/create_reminder
+Content-Type: application/json
+
+{
+    "user": "Tail",
+    "time": "2024-8-16",
+    "text": "Web Application in progress, meeting in next Monday!",
+    "isCompleted": false
+}
+
+###
+GET http://localhost:3001/transactions/get_transaction
+Content-Type: application/application/json
+
+{
+    "username": "Tail"
+}
+

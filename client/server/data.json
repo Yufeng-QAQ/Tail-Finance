@@ -1,0 +1,268 @@
+{
+  "transaction": [
+    {
+      "id": "3",
+      "type": "spending",
+      "amount": 78,
+      "date": "2024-05-27",
+      "note": "",
+      "category": "dining"
+    },
+    {
+      "id": "4",
+      "type": "income",
+      "amount": 42,
+      "date": "2024-06-08",
+      "note": "",
+      "category": "Paycheck"
+    },
+    {
+      "id": "5",
+      "type": "income",
+      "amount": 271,
+      "date": "2024-04-26",
+      "note": "",
+      "category": "paycheck"
+    },
+    {
+      "id": "20240621132521",
+      "type": "spending",
+      "amount": 10,
+      "date": "2024-06-21",
+      "note": "",
+      "category": "Transportation"
+    },
+    {
+      "id": "20240621132538",
+      "type": "spending",
+      "amount": 40,
+      "date": "2024-06-21",
+      "note": "",
+      "category": "Shopping"
+    },
+    {
+      "id": "20240621132717",
+      "type": "spending",
+      "amount": 5,
+      "date": "2024-06-21",
+      "note": "",
+      "category": "Entertainment"
+    },
+    {
+      "id": "20240624-134525",
+      "type": "income",
+      "amount": 235,
+      "date": "2024-06-24",
+      "note": "",
+      "category": "Paycheck"
+    },
+    {
+      "id": "20240624-163053",
+      "type": "income",
+      "amount": 80,
+      "date": "2024-06-15",
+      "note": "",
+      "category": "Paycheck"
+    },
+    {
+      "id": "20240625-133808",
+      "type": "spending",
+      "amount": 70,
+      "date": "2024-06-24",
+      "note": "",
+      "category": "Dining"
+    },
+    {
+      "id": "20240625-180241",
+      "type": "spending",
+      "amount": 60,
+      "date": "2024-06-23",
+      "note": "",
+      "category": "Entertainment"
+    },
+    {
+      "id": "20240628-140642",
+      "type": "spending",
+      "amount": 12,
+      "date": "2024-06-08",
+      "note": "",
+      "category": "Home & Utilities"
+    },
+    {
+      "id": "20240630-195957",
+      "type": "income",
+      "amount": 104,
+      "date": "2024-06-29",
+      "note": "",
+      "category": "Paycheck"
+    },
+    {
+      "id": "20240630-220627",
+      "type": "spending",
+      "amount": 25,
+      "date": "2024-06-01",
+      "note": "",
+      "category": "Education"
+    },
+    {
+      "id": "20240630-220831",
+      "type": "spending",
+      "amount": 15,
+      "date": "2024-06-30",
+      "category": "Travel"
+    },
+    {
+      "id": "20240702-171443",
+      "type": "spending",
+      "amount": 85,
+      "date": "2024-07-02",
+      "note": "",
+      "category": "Shopping"
+    },
+    {
+      "id": "20240704-190711",
+      "type": "income",
+      "amount": 162,
+      "date": "2024-07-03",
+      "note": "",
+      "category": "Cash"
+    },
+    {
+      "id": "20240707-142012",
+      "type": "income",
+      "amount": 108,
+      "date": "2024-07-06",
+      "note": "",
+      "category": "Cash"
+    },
+    {
+      "id": "20240708-164231",
+      "type": "spending",
+      "amount": 74.19,
+      "date": "2024-07-07",
+      "note": "",
+      "category": "Home & Utilities"
+    },
+    {
+      "id": "20240711-142930",
+      "type": "income",
+      "amount": 86,
+      "date": "2024-07-10",
+      "note": "This is the cash pay from koto sake resturant",
+      "category": "Cash"
+    },
+    {
+      "id": "20240713-142540",
+      "type": "spending",
+      "amount": 46,
+      "date": "2024-07-13",
+      "note": "Gasline",
+      "category": "Transportation"
+    },
+    {
+      "id": "20240714-194508",
+      "type": "income",
+      "amount": 131,
+      "date": "2024-07-13",
+      "note": "Pay from Koto Sake",
+      "category": "Cash"
+    },
+    {
+      "id": "20240714-194609",
+      "type": "income",
+      "amount": 55.6,
+      "date": "2024-06-30",
+      "note": "Koto Sake paycheck",
+      "category": "Paycheck"
+    },
+    {
+      "id": "20240718-202022",
+      "type": "income",
+      "amount": 63,
+      "date": "2024-07-17",
+      "note": "Koto Sake",
+      "category": "Cash"
+    },
+    {
+      "id": "20240719-160537",
+      "type": "spending",
+      "amount": 40,
+      "date": "2024-07-18",
+      "note": "gas",
+      "category": "Transportation"
+    },
+    {
+      "id": "20240722-140148",
+      "type": "income",
+      "amount": 127,
+      "date": "2024-07-20",
+      "note": "Cash pay from Koto Sake",
+      "category": "Cash"
+    },
+    {
+      "id": "20240722-210825",
+      "type": "spending",
+      "amount": 180,
+      "date": "2024-07-22",
+      "note": "",
+      "category": "Shopping"
+    },
+    {
+      "id": "20240725-151137",
+      "type": "income",
+      "amount": 96,
+      "date": "2024-07-24",
+      "note": "Koto Sake cash pay",
+      "category": "Cash"
+    },
+    {
+      "id": "20240728-184453",
+      "type": "income",
+      "amount": 94,
+      "date": "2024-07-27",
+      "note": "Koto Sake",
+      "category": "Cash"
+    },
+    {
+      "id": "20240801-193540",
+      "type": "income",
+      "amount": 60,
+      "date": "2024-07-31",
+      "note": "",
+      "category": "Cash"
+    },
+    {
+      "id": "20240805-194956",
+      "type": "income",
+      "amount": 82,
+      "date": "2024-08-03",
+      "note": "koto sake",
+      "category": "Cash"
+    },
+    {
+      "id": "20240809-151930",
+      "type": "income",
+      "amount": 66,
+      "date": "2024-08-07",
+      "note": "",
+      "category": "Cash"
+    },
+    {
+      "id": "20240811-211654",
+      "type": "income",
+      "amount": 108,
+      "date": "2024-08-10",
+      "note": "Koto Sake",
+      "category": "Cash"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "100001",
+      "name": "Honkai Star-Rail",
+      "amount": 4.99,
+      "start_date": "2024/7/15",
+      "frequency": "monthly"
+    }
+  ]
+}

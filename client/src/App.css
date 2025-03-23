@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-primary: #53443a;
+    --clr-primary-light: #3d332c;
+    --clr-secondary: #1e1611;
+    --clr-silver: #bdbabb;
+    --clr-scarlet: #fe1e00;
+    --clr-scarlet-v1: #fe1e00c9;
+    --clr-green: rgb(106, 175, 121);
+    --clr-jet: #302924;
+    --clr-blue: #7bccff;
+    --clr-red: #953023;
+    --clr-pumpkin: #f0a313;
+    --clr-component: #f7f4f4;
+    --clr-background: #e2e2e2;
+    --transition-default: all 150ms ease-in-out
+}
+
+body {
+    font-family: "poppins", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+    color: transparent;
+}
+
+button {
+    cursor: pointer;
+}
+
+.img-fit-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-silver-v1 {
+    color: var(--clr-scarlet-v1)
+}
+
+.text-scarlet {
+    color: var(--clr-scarlet);
+}
+
+.text-green {
+    color: var(--clr-green);
+}
+
+.bg-jet {
+    background-color: var(--clr-jet);
+}
+
+.ig-value {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.grid-common {
+    background-color: var(--clr-component);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 8px 24px;
+    padding: 16px;
+}
+
+.grid-c-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    margin-bottom: 16px;   
+}
+
+.grid-c-title-text {
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.category {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.spent {
+    color: rgb(213, 161, 65);
+}
+
+.income {
+    color: rgb(131, 169, 74);
+}
+
+@media screen and (max-width: 1400px) {
+    .grid-common {
+        padding: 16px;
+    }
+    body {
+        font-size: 14px!important;
+    }
+}
+
+.user-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    appearance: none;
+}
+
+.user-input:hover {
+    border-color: #007bff;
+}
+
+.user-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-group select:hover {
+    border-color: #007bff;
+}

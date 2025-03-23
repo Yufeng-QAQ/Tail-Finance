@@ -1,0 +1,199 @@
+.Budget {
+    justify-content: center;
+}
+
+.content {
+    margin: 10px 60px;
+    width: 500px;
+    float: left;
+}
+
+/*
+@media screen and (max-width: 1400px) {
+    .data {
+        float: left;
+        margin-top: 10px;
+        padding: 0px;
+        margin-left: 30px;
+    }
+} */
+
+/* Create Transaction Button */
+.createTrans-BTN {
+    display: flex;
+    justify-content: right;
+}
+
+.createTrans-text {
+    width: 150px;
+    text-align: center;
+    padding: 2px 5px 2px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    color: rgb(255, 255, 255);
+    background-color: var(--clr-primary);
+}
+
+.createTrans-text:hover {
+    background-color: #7b716a;
+    cursor: pointer;
+}
+
+
+/* Header Area */
+.budget-header {
+    height: 120px;
+    padding: 10px 10px;
+    background-color: rgb(203, 192, 93);
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.select-month {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.month-btn {
+    width: 23px;
+}
+
+.month-btn:hover {
+    cursor: pointer;
+}
+
+
+.date {
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    width: 140px;
+    text-align: center;
+    border: 2px solid var(--clr-primary);
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.date:hover {
+    background-color: rgb(210, 210, 210);
+    cursor: pointer;
+}
+
+.arrow {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-top: 5px;
+    border-top: 2px solid #888c98;
+    border-left: 2px solid #888c98;
+    transform: rotate(225deg);
+    transform-origin: center;
+    transition: all 0.3s;
+}
+
+.arrow.expand {
+    transform: translate(0, 2px) rotate(45deg);
+}
+
+.summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.type {
+    font-size: 12px;
+    color: rgb(92, 89, 89);
+}
+
+.money {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.date-picker {
+    width: 140px;
+    display: block;
+    position: absolute;
+    top: 140px;
+    margin-left: 23px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    z-index: 100;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.month {
+    padding: 5px 0;
+    /* Add padding for each month item */
+    cursor: pointer;
+    /* Change cursor to pointer to indicate clickable items */
+}
+
+.month:hover {
+    background-color: #f0f0f0;
+    /* Highlight the month item on hover */
+}
+
+.year {
+    display: flex;
+    justify-content: space-around;
+}
+
+.prev-year {
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    /* Height of the triangle */
+    border-bottom: 6px solid transparent;
+    /* Height of the triangle */
+    border-right: 12px solid rgb(127, 117, 117);
+}
+
+.next-year {
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    /* Height of the triangle */
+    border-bottom: 6px solid transparent;
+    /* Height of the triangle */
+    border-left: 12px solid rgb(127, 117, 117);
+}
+
+.hidden {
+    border-color: transparent;
+}
+
+.day-summary {
+    max-height: 480px;
+    padding-right: 5px;
+    overflow-y: scroll;
+    
+
+    /* WebKit-based browsers */
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: rgb(190, 190, 188);
+        border-radius: 18px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+
+}

@@ -1,0 +1,69 @@
+.Reminder {
+    height: 100%;
+}
+
+.reminder-content .reminder-input {
+    display: flex;
+    align-items: center;
+}
+
+.reminder-content .text-input-area {
+    width: 60%;
+    height: 45px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    resize: none;
+    font-size: 12px;
+    background-color: rgb(231, 229, 229);
+}
+
+.reminder-input .reminder-post-btn {
+    width: 60px;
+    height: 45px;
+    background-color: var(--clr-primary);
+    border-radius: 5px;
+    border: none;
+    color: rgb(250, 246, 246);
+    text-align: center;
+    outline: none;
+    margin-left: 10px;
+}
+
+.reminder-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 40px;
+    background-color: #e7e3df;
+    margin-top: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.reminder-item .reminder-text {
+    max-width: 70%;
+    padding: 5px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.reminder-item .reminder-operate-btns {
+    margin-right: 15px;
+
+}
+
+.reminder-item .reminder-icon {
+    width: 24px;
+    margin-left: 10px;
+}
+
+.reminder-item .reminder-icon:hover {
+    background-color: rgb(197, 203, 206);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}

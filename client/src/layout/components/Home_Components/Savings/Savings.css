@@ -1,0 +1,50 @@
+.Savings {
+    height: 100%;
+}
+
+.Savings .grid-item {
+    margin-bottom: 16px;
+}
+
+.Savings .grid-item-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.Savings .saving-amount {
+    font-weight: 500;
+}
+
+.Savings .saving-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Savings .saving-info {
+    color: rgb(128, 128, 128);
+    background-color: rgb(128, 128, 128, 0.2);
+    display: inline-block;
+    border-radius: 5px;
+    padding: 3px 4px;
+    margin-bottom: 3px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.Savings .saving-progress {
+    background-color: rgb(128, 128, 128, 0.2);
+    height: 10px;
+    border-radius: 100vh;
+    margin-top: 4px;
+    overflow: hidden;
+}
+
+.Savings .progress-fill {
+    
+    height: 10px;
+    border-radius: 100vh;
+    background-color: var(--clr-pumpkin);
+    overflow: hidden;
+}
