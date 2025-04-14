@@ -9,7 +9,7 @@ export const navigationLinks = [
 ]
 
 export const commentList = [
-    { id: "05312115", content: "喵喵喵这里是尾巴哦", date: "05-31 21:15", isComplete: false },
+    { id: "05312115", content: "This is Tail", date: "05-31 21:15", isComplete: false },
     { id: "06011125", content: "呀吼~古德猫宁", date: "06-01 11:25", isComplete: false }
 ]
 
