@@ -32,7 +32,7 @@ To run Tail Finance locally, follow these steps:
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/Yufeng-QAQ/Tell-Finance.git
+    git clone https://github.com/Yufeng-QAQ/Tail-Finance.git
     cd tail-finance
     ```
 
